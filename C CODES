@@ -1,0 +1,1135 @@
+#include <stdio.h>
+int main()
+{
+ printf("Hello World");
+ return 0;
+}
+program 1
+#include <stdio.h>
+int main()
+{int a=2,b=2,sum;
+ sum=a+b;
+ printf("the sum of %d and %d is %d",a,b,sum);
+ return 0;
+}
+program 2
+#include <stdio.h>
+int main()
+{int a=2,b=4,sub;
+ sub=a-b;
+ printf("the subtraction of %d and %d is %d",a,b,sub);
+ return 0;
+}
+ program 3
+#include <stdio.h>
+int main()
+{int a=2,b=4,mul;
+ mul=a*b;
+ printf("the multiplication of %d and %d is %d",a,b,mul);
+ return 0;
+}
+program 4
+#include <stdio.h>
+int main()
+{int a=4,b=2,div;
+ div=a/b;
+ printf("the divide of %d and %d is %d",a,b,div);
+ return 0;
+}
+program 5
+#include <stdio.h>
+int main()
+{float a=4,b=2,sum;
+ sum=a+b;
+ printf("the sum of %f and %f is %f",a,b,sum);
+ return 0;
+}
+program 6
+#include <stdio.h>
+int main()
+{float a=4,b=2,sub;
+ sub=a-b;
+ printf("the sub of %f and %f is %f",a,b,sub);
+ return 0;
+}
+program 7
+#include <stdio.h>
+int main()
+{float a=4,b=2,multiplication;
+ multiplication=a*b;
+ printf("the multiplication of %f and %f is %f",a,b,multiplication);
+ return 0;
+}
+program 8
+#include <stdio.h>
+int main()
+{float a=4,b=2,div;
+ div=a/b;
+ printf("the divide of %f and %f is %f",a,b,div);
+ return 0;
+}
+program 9
+#include <stdio.h>
+int main()
+{int a,b,sum;
+printf("Enter the value of a -: ");
+scanf("%d",&a);
+printf("Enter the value of b -: ");
+scanf("%d",&b);
+ sum=a+b;
+ printf("the sum of %d and %d is %d",a,b,sum);
+ return 0;
+}
+program 10
+#include <stdio.h>
+int main()
+{int a,b,sub;
+printf("Enter the value of a -: ");
+scanf("%d",&a);
+printf("Enter the value of b -: ");
+scanf("%d",&b);
+ sub=a-b;
+ printf("the sub of %d and %d is %d",a,b,sub);
+ return 0;
+}
+program 11
+#include <stdio.h>
+int main()
+{int a,b,mul;
+printf("Enter the value of a -: ");
+scanf("%d",&a);
+printf("Enter the value of b -: ");
+scanf("%d",&b);
+ mul=a*b;
+ printf("the multipliction of %d and %d is %d",a,b,mul);
+ return 0;
+}
+program 12
+#include <stdio.h>
+int main()
+{int a,b,div;
+printf("Enter the value of a -: ");
+scanf("%d",&a);
+printf("Enter the value of b -: ");
+scanf("%d",&b);
+ div=a/b;
+ printf("the divide of %d and %d is %d",a,b,div);
+ return 0;
+}
+program 13
+#include <stdio.h>
+int main()
+{float a,b,sum;
+printf("Enter the value of a -: ");
+scanf("%f",&a);
+printf("Enter the value of b -: ");
+scanf("%f",&b);
+ sum=a+b;
+ printf("the sum of %f and %f is %0.1f",a,b,sum);
+ return 0;
+}
+program 14
+#include <stdio.h>
+int main()
+{float a,b,sub;
+printf("Enter the value of a -: ");
+scanf("%f",&a);
+printf("Enter the value of b -: ");
+scanf("%f",&b);
+ sub=a-b;
+ printf("the sub of %f and %f is %0.1f",a,b,sub);
+ return 0;
+}
+program 15
+#include <stdio.h>
+int main()
+{float a,b,mul;
+printf("Enter the value of a -: ");
+scanf("%f",&a);
+printf("Enter the value of b -: ");
+scanf("%f",&b);
+ mul=a*b;
+ printf("the multipliction of %f and %f %0.1f",a,b,mul);
+ return 0;
+}
+program 16
+#include <stdio.h>
+int main()
+{float a,b;
+float div;
+printf("Enter the value of a -: ");
+scanf("%f",&a);
+printf("Enter the value of b -: ");
+scanf("%f",&b);
+ div=a/b;
+ printf("the divide of %0.2f and %0.2f is %0.1f",a,b,div);
+ return 0;
+}
+program 17
+#include <stdio.h>
+int main()
+{
+ printf("Hello World");
+ return 0;
+}
+program 18
+#include <stdio.h>
+//to find area of circle
+int main()
+{float r,area;
+printf("enter the radii of circle:-");
+scanf("%f",&r);
+area=3.14*r*r;
+printf("the area of circle with radius %0.2f is :- %0.2f",r,area); 
+}
+program 19
+#include <stdio.h>
+//to find area of cylinder
+int main()
+{float r,h,area;
+printf("enter the radii of cylinder:-");
+scanf("%f",&r);
+printf("enter the hieght of cylinder:-");
+scanf("%f",&h);
+area = 2*3.14*r*(r+h);
+printf("the area of cylinder with radius %0.2f and hieght %0.3f is :- %0.2f",r,h,area); 
+}
+program 20
+#include <stdio.h>
+//to find volume of cylinder
+int main()
+{float r,h,volume;
+printf("enter the radii of cylinder:-");
+scanf("%f",&r);
+printf("enter the hieght of cylinder:-");
+scanf("%f",&h);
+volume = 3.14*r*r*h;
+printf("the volume of cylinder with radius %0.2f and hieght %0.3f is :- %0.2f",r,h,volume); 
+}
+program 21
+#include <stdio.h>
+//to find area of rectangle
+int main()
+{float L,B,area;
+printf("enter the the value of lenght of recatngle:-");
+scanf("%f",&L);
+printf("enter the vlue of breadth of rectangle:-");
+scanf("%f",&B);
+area=L*B;
+printf("the area of raectangle with lenghth %0.2f and breadth %0.3f is :- %0.2f",L,B,area); 
+} 
+program 22
+#include <stdio.h>
+//to find perimeter of rectangle
+int main()
+{float L,B,perimeter;
+printf("enter the value of lenght of recatngle:-");
+scanf("%f",&L);
+printf("enter the value of breadth of rectangle:-");
+scanf("%f",&B);
+perimeter=2*(L+B);
+printf("the perimeter of raectangle with lenghth %0.2f and breadth %0.3f is :- %0.2f",L,B,perimeter); 
+}
+program 23
+#include <stdio.h>
+//to convert centimeters into meters
+int main()
+{float a,m;
+printf("enter the value of a in centimeters:-");
+scanf("%f",&a);
+m=a/100;
+printf("the value of avriable a in cm is :- %0.2f and in meter is %0.2f",a,m); 
+}
+program 24
+#include <stdio.h>
+//to convert kg into gm
+int main()
+{float a,kg;
+printf("enter the value of a in kg:-");
+scanf("%f",&a);
+kg=a*1000;
+printf("the value of avriable a in cm is :- %0.2f and in meter is %0.2f",a,kg); 
+}
+#include <stdio.h>
+int main()
+{
+int age;
+float h,w;
+printf("enter your age;-");
+scanf("%d",&age);
+if(age>18)
+{
+printf("you are eligible for ncc");
+}
+ return 0;
+}
+program 2
+#include <stdio.h>
+int main()
+{
+int age;
+float h,w;
+printf("enter your age:-");
+scanf("%d",&age);
+if(age>18)
+{
+printf("you are eligible for ncc");
+}
+else 
+{
+printf("you are not eligible");
+}
+ return 0;
+}
+program 3
+int main()
+{
+int age;
+float h,w;
+printf("enter your age:-");
+scanf("%d",&age);
+if(age>=18&&age<=35)
+{
+printf("you are eligible for ncc");
+}
+else if(age>35 && age<=45)
+{
+ printf("you are eligible for ncc office");
+}
+else 
+{
+printf("you are not eligible");
+}
+ return 0;
+}
+program 4
+#include <stdio.h>
+int main()
+{
+int age;
+float h,w;
+printf("enter your age:-");
+scanf("%d",&age);
+if(age>=18&&age<=35)
+{printf("enter your hieght:-");
+scanf("%f",&h);
+printf("enter your wieght:-");
+scanf("%f",&w);
+if (h>=5.5,w<55)
+{printf("you are eligible for ncc");
+}
+else
+{printf("not eligible due to wieght and hieght ");
+}
+}
+else if(age>35 && age<=45)
+{
+ printf("you are eligible for ncc office");
+}
+else 
+{
+printf("you are not eligible");
+}
+ return 0;
+}
+program 5
+#include <stdio.h>
+int main ()
+{float a,b;
+printf("enter the first number");
+scanf("%f",&a);
+printf("enter the second number");
+scanf("%f",&b);
+if(a>b)
+{
+ printf("%f is grtr than %f",a,b);
+}
+else if(a<b)
+{
+ printf("%f is greater than %f",b,a);
+}
+else 
+{
+ printf("%f is equal to %f",a,b);
+} 
+ return 0;
+}
+#include <stdio.h>
+int main ()
+{float a,b,c;
+printf("enter the first number");
+scanf("%f",&a);
+printf("enter the second number");
+scanf("%f",&b);
+printf("enter the third number");
+scanf("%f",&c);
+if(a>b||a>c)
+{
+ printf("%f is grtr than %fand %f",a,b,c);
+}
+else if(b>a||b>c)
+{
+ printf("%f is greater than %fand %f",b,a,c);
+}
+else if(c>a||c>b)
+{
+ printf("%f is greater than %f and %f",c,a,b);
+}
+else 
+{
+ printf("%f,%f,%f are equal in values",a,b,c);
+} 
+ return 0;
+}
+#include <stdio.h>
+int main ()
+{float a;
+printf("enter the number");
+scanf("%f",&a);
+if(a>0)
+{
+ printf("%f is positive",a);
+}
+else if(a<0)
+{
+ printf("%f is negative",a);
+}
+else 
+{
+ printf("%f is zero",a);
+} 
+ return 0;
+}
+#include <stdio.h>
+int main ()
+{float a,b;
+printf("enter the number");
+scanf("%f",&a);
+if(a%5==0||a%11==0)
+{
+ printf("%f is divisible by 5 and 11",a);
+}
+else 
+{
+ printf("%f is not divisible by 5 and 11",a);
+} 
+ return 0;
+}
+#include <stdio.h>
+int main ()
+{float a;
+printf("enter the number");
+scanf("%f",&a);
+if(a%2==0)
+{
+ printf("%f is even",a);
+}
+else 
+{
+ printf("%f is odd",a);
+} 
+ return 0;
+}
+#include <stdio.h>
+int main ()
+{float a;
+printf("enter the year");
+scanf("%f",&a);
+if(a%4==0)
+{
+ printf("%f is leap year",a);
+}
+else 
+{
+ printf("%f is not aleap year",a);
+} 
+ return 0;
+}
+#include <stdio.h>
+int main ()
+{float a;
+printf("enter the character");
+scanf("%f",&a);
+if(a<='a'||a>='z')
+{
+ printf("%f is even",a);
+}
+else 
+{
+ printf("%f is odd",a);
+} 
+ return 0;
+}
+#include <stdio.h>
+int main()
+{int n,temp,sum=0,rem;
+printf("input the no");
+scanf("%d",&n);
+temp=n;
+while(n>0)
+{rem=n%10;
+sum=(sum*10)+rem;
+n=n/10;
+}
+if (temp==sum)
+{printf("the give no is palindrome number");
+}
+else
+{printf("the given no is not a palindrome number");
+}
+ return 0;
+}
+//to print the no from 1 to 10
+#include <stdio.h>
+int main()
+{ int i;
+for(i=0;i<=10;i++)
+{
+ printf("the value of i is %d \n",i);
+}
+ return 0;
+}
+#include <stdio.h>
+int main()
+{ int i;
+for(i=0;i<=10;++i)
+{
+ printf("the value of i is %d \n",i);
+}
+ return 0;
+}
+int main()
+{ int i;
+for(i=20;i>=11;i--)
+{
+ printf("the value of i is %d \n",i);
+}
+ return 0;
+}
+int main()
+{ int i;
+for(i=20;i>=11;--i)
+{
+ printf("the value of i is %d \n",i);
+}
+ return 0;
+}
+// Print numbers from 7to10
+#include <stdio.h>
+int main() 
+{
+ int i = 7;
+ 
+ while (i <= 10) {
+ printf("%d\n", i);
+ ++i;
+ }
+ return 0;
+}
+#include <stdio.h>
+int main()
+{int i;
+i=0;
+do{ 
+ printf("print th vlaue of %d \n",i);
+ i++;
+}while(i<=10)
+;
+ return 0;
+}
+#include <stdio.h>
+int main()
+{int s,k,rows;
+printf("enter the value of rows:");
+scanf("%d",&rows);
+for(s=1;s<=rows;s++)
+{
+ for(k=1;k<=s;k++)
+ {printf("0");
+ 
+ }
+ printf("\n");
+}
+ return 0;
+}
+#include <stdio.h>
+int main()
+{int i;
+int values[10];
+printf("enter values \n");
+for(i=0;i<10;i++)
+{scanf("%d",&values[i]);
+}
+printf("entered values are");
+for(i=0;i<10;i++)
+{printf("%d\n",values[i]);
+}
+return 0;
+}
+string
+#include <stdio.h>
+#include<string.h>
+int main()
+{char str[]="glauniversity";
+int i=0;
+while(str[i]!='\0')
+{i=i+1;
+}
+printf("the lenghth of string is %d",i);
+ return 0;
+}
+#include <stdio.h>
+#include<string.h>
+int main()
+{char str[10];
+printf("enter the vslue of string");
+scanf("%s",str);
+int i=strlen(str);
+printf("the lenghth of string is %d",i);
+ return 0;
+}
+#include <stdio.h>
+int compare(char a[],char b[]);
+int main()
+{char str1[10]="firozabad";
+char str2[10]="firozabad";
+int z=compare(str1,str2);
+if(z==0)
+{
+printf("two string are equal");
+}
+else
+{
+printf("two strings are not equal");
+}
+}
+int compare(char a[],char b[])
+{ int i=0,x;
+while(a[i]!='\0'&&b[i]!='\0')
+{if(a[i]==b[i])
+{x=0;
+i++;
+}
+else
+{x=1;
+}
+return x;
+}
+}
+error check//
+pointer
+#include<stdio.h>
+int main()
+{int age=18;
+printf("%p\n",&age);
+int *ptr=&age;
+printf("%p\n",ptr);
+printf("%d",*ptr);
+}
+FUNCTION
+To add to integer using a function of add
+#include<stdio.h>
+int sum(int a, int b);
+int main()
+{
+int a,b;
+printf("enter the value of two integer");
+scanf("%d %d",&a,&b);
+int x=sum(a,b);
+printf("%d",x);
+}
+int sum(int a, int b)
+{
+int c=a+b;
+return c;
+}
+To find of cube of any intger by using a function
+#include<stdio.h>
+int cube(int a);
+int main()
+{
+int a;
+printf("enter the value of integer");
+scanf("%d",&a);
+int x=cube(a);
+printf(" the cube of %d is %d",a,x);
+}
+int cube(int a)
+{ return a*a*a;
+}
+To check wether a number is even or odd
+#include<stdio.h>
+int eo(int a);
+int main()
+{
+int a;
+printf("enter the value of integer");
+scanf("%d",&a);
+int x=eo(a);
+if(x!=0){
+printf("even");
+}
+else{printf("odd");}
+}
+int eo(int a)
+{int c=1,d=0;
+if(a%2==0)
+{
+return c;
+}
+else
+{return d;
+}
+}
+To find the area of a circle and diameter of a circle and circumference using a function
+#include<stdio.h>
+float dia(float a);
+float area(float b);
+float cir(float c);
+float main()
+{
+float r,a,b,c;
+printf("enter the value radii ");
+scanf("%f",&r);
+float f=dia(r);
+float g=area(r);
+float h=cir(r);
+printf("area is %f \n",g);
+printf("dia is %f \n",f);
+printf("cir is %f \n",h);
+}
+float dia(float a)
+{float v=a*2;
+return v ;
+}
+float area(float b)
+{ return 3.14*b*b;
+}
+float cir(float c)
+{return 2*3.14*c;
+}
+To find the grretest between two integer
+#include<stdio.h>
+int max(int a, int b);
+int main()
+{
+int a,b;
+printf("enter the value of two integer \n");
+scanf("%d %d",&a,&b);
+int x=max(a,b);
+if(x==0)
+{
+printf("%d is greater than %d",a,b);
+}
+else{
+printf
+("%d is greater than %d",b,a);
+}
+}
+int max(int a, int b)
+{int c;
+if(a>b)
+{c=0;
+}
+else{c=1;
+}
+return c;
+}
+To check whether a no is prime or not
+#include<stdio.h>
+int prime(int a);
+int armstrong(int b);
+int perfect(int c);
+int main()
+{
+int a;
+int x=prime(a);
+if(x==0){
+printf("prime");
+}
+else{printf("not a prime no");}
+}
+int prime(int a)
+{int no,count=0,c=0,rem;
+printf("enter the value of integer");
+scanf("%d",&no);
+for(int i=1;i<=no;i++)
+{
+rem=no%i;
+if(rem==0)
+{count++;
+}
+}
+if(count==2)
+{return c;
+}
+}
+2 D array
+#include <stdio.h>
+int main()
+{int a[2][4],r,c;
+printf("enter r");
+scanf("%d",&r);
+printf("enter c");
+scanf("%d",&c);
+printf("enter the value of array are");
+for(int i=0;i<r;i++)
+{for(int j=0;j<c;j++)
+{scanf("%d",&a[i][j]);
+}
+}
+printf("the value of array are");
+for(int i=0;i<r;i++)
+{for(int j=0;j<c;j++)
+{printf("%d",a[i][j]);
+}
+printf("\n");
+}
+ return 0;
+}
+sum of two array by definng max max size of two arrays
+#include <stdio.h>
+#define MAX_ROWS 100
+#define MAX_COLS 100
+int main()
+{int a[MAX_ROWS][MAX_COLS],r,c,b[MAX_ROWS][MAX_COLS];
+printf("enter r ");
+scanf("%d",&r);
+printf("enter c ");
+scanf("%d",&c);
+printf("enter the value of array a are");
+for(int i=0;i<r;i++)
+{for(int j=0;j<c;j++)
+{scanf("%d",&a[i][j]);
+}
+}
+printf("the value of array a are ");
+for(int i=0;i<r;i++)
+{for(int j=0;j<c;j++)
+{printf("%d",a[i][j]);
+}
+printf("\n");
+}
+printf("enter the value of array b");
+for(int i=0;i<r;i++)
+{for(int j=0;j<c;j++)
+{scanf("%d",&b[i][j]);
+}
+}
+printf("the value of array b are");
+for(int i=0;i<r;i++)
+{for(int j=0;j<c;j++)
+{printf("%d",b[i][j]);
+}
+printf("\n");
+} 
+printf("the sum of two array a and b are");
+for(int i=0;i<r;i++)
+{for(int j=0;j<c;j++)
+{printf("%d",a[i][j]+b[i][j]);
+}
+printf("\n");
+}
+ return 0;
+}
+differense of two array bydefining maxmum size
+#include <stdio.h>
+#define MAX_ROWS 100
+#define MAX_COLS 100
+int main()
+{int a[MAX_ROWS][MAX_COLS],r,c,b[MAX_ROWS][MAX_COLS];
+printf("enter r ");
+scanf("%d",&r);
+printf("enter c ");
+scanf("%d",&c);
+printf("enter the value of array a are");
+for(int i=0;i<r;i++)
+{for(int j=0;j<c;j++)
+{scanf("%d",&a[i][j]);
+}
+}
+printf("the value of array a are ");
+for(int i=0;i<r;i++)
+{for(int j=0;j<c;j++)
+{printf("%d",a[i][j]);
+}
+printf("\n");
+}
+printf("enter the value of array b");
+for(int i=0;i<r;i++)
+{for(int j=0;j<c;j++)
+{scanf("%d",&b[i][j]);
+}
+}
+printf("the value of array b are");
+for(int i=0;i<r;i++)
+{for(int j=0;j<c;j++)
+{printf("%d",b[i][j]);
+}
+printf("\n");
+}
+printf("the difference of two array a and b are");
+for(int i=0;i<r;i++)
+{for(int j=0;j<c;j++)
+{printf("%d",a[i][j]-b[i][j]);
+}
+printf("\n");
+}
+ return 0;
+}
+sorting of array row wise in ascending
+#include <stdio.h>
+#define MAX_ROWS 100
+#define MAX_COLS 100
+int main()
+{int a[MAX_ROWS][MAX_COLS],b[MAX_ROWS][MAX_COLS],r,c;
+printf("enter r ");
+scanf("%d",&r);
+printf("enter c ");
+scanf("%d",&c);
+printf("enter the value of array a are");
+for(int i=0;i<r;i++)
+{for(int j=0;j<c;j++)
+{scanf("%d",&a[i][j]);
+}
+}
+printf("the value of array a are ");
+for(int i=0;i<r;i++)
+{for(int j=0;j<c;j++)
+{printf("%d",a[i][j]);
+}
+printf("\n");
+}
+for (int i=0;i<r;++i) 
+{
+for (int j=0;j<c;++j) 
+{
+for (int k=(j+1);k<c;++k) 
+{
+if (a[i][j]>a[i][k])
+{a[MAX_ROWS][MAX_COLS]=a[i][j];
+a[i][j]=a[i][k];
+a[i][k] = a[MAX_ROWS][MAX_COLS];
+}
+}
+}
+}
+printf("after sorting row wise");
+for (int i=0;i<r;++i) 
+{
+for (int j=0;j<c;++j) 
+{ 
+printf (" %d",a[i][j]);
+}
+printf ("\n");
+}
+}
+sorting of array row wise in descending
+#include <stdio.h>
+#define MAX_ROWS 100
+#define MAX_COLS 100
+int main()
+{int a[MAX_ROWS][MAX_COLS],b[MAX_ROWS][MAX_COLS],r,c;
+printf("enter r ");
+scanf("%d",&r);
+printf("enter c ");
+scanf("%d",&c);
+printf("enter the value of array a are");
+for(int i=0;i<r;i++)
+{for(int j=0;j<c;j++)
+{scanf("%d",&a[i][j]);
+}
+}
+printf("the value of array a are ");
+for(int i=0;i<r;i++)
+{for(int j=0;j<c;j++)
+{printf("%d",a[i][j]);
+}
+printf("\n");
+}
+for (int i=0;i<r;++i) 
+{
+for (int j=0;j<c;++j) 
+{
+for (int k=(j+1);k<c;++k) 
+{
+if (a[i][j]<a[i][k])
+{a[MAX_ROWS][MAX_COLS]=a[i][j];
+a[i][j]=a[i][k];
+a[i][k] = a[MAX_ROWS][MAX_COLS];
+}
+}
+}
+}
+printf("after sorting row wise");
+for (int i=0;i<r;++i) 
+{
+for (int j=0;j<c;++j) 
+{ 
+printf (" %d",a[i][j]);
+}
+printf ("\n");
+}
+}
+sorting column wise decsending
+#include <stdio.h>
+#define MAX_ROWS 100
+#define MAX_COLS 100
+int main()
+{int a[MAX_ROWS][MAX_COLS],b[MAX_ROWS][MAX_COLS],r,c;
+printf("enter r ");
+scanf("%d",&r);
+printf("enter c ");
+scanf("%d",&c);
+printf("enter the value of array a are");
+for(int i=0;i<r;i++)
+{for(int j=0;j<c;j++)
+{scanf("%d",&a[i][j]);
+}
+}
+printf("the value of array a are ");
+for(int i=0;i<r;i++)
+{for(int j=0;j<c;j++)
+{printf("%d",a[i][j]);
+}
+printf("\n");
+}
+for (int j=0;j<c;++j) 
+{ 
+for (int i=0;i<r;++i) 
+{
+for (int k=i+1;k<r;++k) 
+{ 
+if (a[i][j] < a[k][j]) 
+{
+a[MAX_ROWS][MAX_COLS] = a[i][j];
+a[i][j] = a[k][j];
+a[k][j] =a[MAX_ROWS][MAX_COLS];
+} 
+} 
+} 
+} 
+for (int i=0;i<r;++i) 
+{ 
+for (int j=0;j<c;++j) 
+{ 
+printf (" %d",a[i][j]);
+}
+printf ("\n");
+}
+}
+sorting column wise ascending
+#include <stdio.h>
+#define MAX_ROWS 100
+#define MAX_COLS 100
+int main()
+{int a[MAX_ROWS][MAX_COLS],b[MAX_ROWS][MAX_COLS],r,c;
+printf("enter r ");
+scanf("%d",&r);
+printf("enter c ");
+scanf("%d",&c);
+printf("enter the value of array a are");
+for(int i=0;i<r;i++)
+{for(int j=0;j<c;j++)
+{scanf("%d",&a[i][j]);
+}
+}
+printf("the value of array a are ");
+for(int i=0;i<r;i++)
+{for(int j=0;j<c;j++)
+{printf("%d",a[i][j]);
+}
+printf("\n");
+}
+for (int j=0;j<c;++j) 
+{ 
+for (int i=0;i<r;++i) 
+{
+for (int k=i+1;k<r;++k) 
+{ 
+if (a[i][j] > a[k][j]) 
+{
+a[MAX_ROWS][MAX_COLS] = a[i][j];
+a[i][j] = a[k][j];
+a[k][j] =a[MAX_ROWS][MAX_COLS];
+} 
+} 
+} 
+} 
+for (int i=0;i<r;++i) 
+{ 
+for (int j=0;j<c;++j) 
+{ 
+printf (" %d",a[i][j]);
+}
+printf ("\n");
+}
+}
+multiplication of two matrices 
+#include <stdio.h>
+#define MAX_ROWS 100
+#define MAX_COLS 100
+int main()
+{int 
+r1,r2,c1,c2,r,c,a[MAX_ROWS][MAX_COLS],i,j,k,sum=0,b[MAX_ROWS][MAX_COLS],mul[MAX_RO
+WS][MAX_COLS];
+printf("enter value of row for a matrices ");
+scanf("%d",&r1);
+printf("enter value of column for a matrices ");
+scanf("%d",&c1);
+printf("enter value of row for b matrices ");
+scanf("%d",&r2);
+printf("enter value of column for b matrices ");
+scanf("%d",&c2);
+printf("enter the value of array a are");
+for(i=0;i<r1;i++)
+{for(j=0;j<c1;j++)
+{scanf("%d",&a[i][j]);
+}
+}
+printf("the value of array a are ");
+for(i=0;i<r1;i++)
+{for(j=0;j<c1;j++)
+{printf("%d",a[i][j]);
+}
+printf("\n");
+}
+printf("enter the value of array b");
+for(i=0;i<r2;i++)
+{for(j=0;j<c2;j++)
+{scanf("%d",&b[i][j]);
+}
+}
+printf("the value of array b are");
+for(i=0;i<r2;i++)
+{for(j=0;j<c2;j++)
+{printf("%d",b[i][j]);
+}
+printf("\n");
+} 
+if(r1==c2)
+{
+r=r1;
+c=c2;
+printf("the product of two array a and b are");
+for(i=0;i<r;i++)
+{for(j=0;j<c;j++)
+{for(k=0;k<r;k++)
+{sum=sum+(a[i][k]*b[k][j]);
+}
+mul[i][j]=sum;
+sum=0;
+}
+}
+printf("the multiplication of a and b are");
+for(i=0;i<r;i++)
+{for(j=0;j<c;j++)
+{printf("%d",mul[i][j]);
+}
+printf("\n");
+}
+}
+else
+{printf("multiplication is not paossible of these two matrices");
+}
+}
